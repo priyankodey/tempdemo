@@ -1,4 +1,8 @@
 Temp::Application.routes.draw do
+  get "academics/video"
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
+  get "contacts/welcome_email"
   resources :users
   root 'users#index'
 
