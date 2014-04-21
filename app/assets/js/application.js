@@ -14,12 +14,6 @@
 //= require jquery_ujs
 //= require jquery.ui.all
 //= require dataTables/jquery.dataTables
-//= require jquery.dataTables.yadcf.js
-//= require jquery.flot
-//= require jquery.flot.pie
-//= require jquery.flot.canvas.js
-//= require jquery.flot.axislabels.js
-//= require jquery.flot.orderBars.js
 //= require turbolinks
 //= require_tree .
 
