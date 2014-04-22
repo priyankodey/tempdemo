@@ -4278,7 +4278,7 @@ a.list-group-item.active > .badge,
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .carousel-inner > .item {
@@ -4292,7 +4292,7 @@ a.list-group-item.active > .badge,
 .carousel-inner > .item > a > img {
   display: inline-block;
   height: auto;
-  max-width: 100%;
+  max-width: 1350px;
   line-height: 1;
 }
 
@@ -4336,11 +4336,11 @@ a.list-group-item.active > .badge,
 
 .carousel-control {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 50px;
+  bottom: 80px;
   left: 0;
-  width: 15%;
-  font-size: 20px;
+  width: 10%;
+  font-size: 50px;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
