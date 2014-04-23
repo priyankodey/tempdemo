@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link rel="prefetch" href="assets/images/zoom.png">
+  <!-- <link rel="prefetch" href="assets/images/zoom.png"> -->
     
 </head>
 
@@ -35,8 +35,8 @@
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav row">
           <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-          <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">START INVESTING</span></a></li>
-          <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-gears"></span> <span class="text">INVESTMENT</span></a></li>
+          <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">VISION</span></a></li>
+          <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-gears"></span> <span class="text">START INVESTING</span></a></li>
           <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-heart"></span> <span class="text">ACADEMY</span></a></li>
           <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
           <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
@@ -58,8 +58,8 @@
   <div id="arrows">
     <div id="arrow-up" class="disabled"></div>
     <div id="arrow-down"></div>
-    <div id="arrow-left" class="disabled visible-lg"></div>
-    <div id="arrow-right" class="disabled visible-lg"></div>
+    <!-- <div id="arrow-left" class="disabled visible-lg"></div>
+    <div id="arrow-right" class="disabled visible-lg"></div> -->
   </div><!-- /.arrows -->
   
   
@@ -81,11 +81,11 @@
 
   <section class="block">
   <div id="myCarousel" class="carousel slide">
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+    </ol> -->
     <!-- Carousel items -->
     <div class="carousel-inner">
       <div class="active item"><%= image_tag("gullak21.jpg", alt: "gullak") %>
@@ -99,13 +99,14 @@
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
   </div>
-  
-                  <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" id="trybutton">
+   <a href="#" role="button" class="btn btn-primary btn-large active" style="background:#E46C0A;border-color:#A55F26; width:400px;font-size:24px;margin-top:-1cm;"><b>Sign Up Now</b></a><br>
+      
+                  <!-- <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" id="trybutton">
                   Rupee Vest Teaser</a>
                   <a href="/investing/startinvesting" role="button" class="btn btn-primary btn-large active" id="trybutton">
                   Save Tax</a>
                  <a href="#myModal" role="button" class="btn btn-primary btn-large active" id="trybutton" data-toggle="modal">
-                  Click here to try Demo</a>
+                  Click here to try Demo</a> -->
                            
                           <!-- Modal -->
                           <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -152,15 +153,15 @@
   <div class="slide story" id="slide-2" data-slide="2">
     <div class="container">
       <div class="row title-row">
-        <div class="col-12 font-thin"><span class="font-semibold">Start Investing</span> we’ve worked with</div>
+        <div class="col-12 font-thin"><span class="font-semibold">VISION</span> </div>
       </div><!-- /row -->
       <div class="row line-row">
         <div class="hr">&nbsp;</div>
       </div><!-- /row -->
       <div class="row subtitle-row">
-        <div class="col-sm-1 hidden-sm">&nbsp;</div>
-        <div class="col-12 col-sm-10 font-light"><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br><br/></div>
-<div> <a href="/investing/startinvesting" role="button" class="btn btn-primary btn-large active">Show more</a>
+        <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
+        <div class="col-12 col-sm-12 font-light">Our vision is to empower every Indian to plan and execute simple investment decisions for themselves.   Now sit and the comfort of your homes, plan for you life's financial goals, save and invest for them online @RupeeVest and track your investments on the fly. Stop; Think; Start RupeeVesting! <br><br></div>
+<div> <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Watch teaser on RupeeVest!</b></a>
 </div>
 
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
@@ -179,38 +180,54 @@
 
   
   <!-- === SLide 3 - Portfolio -->
-  <div class="slide story" id="slide-3" data-slide="3">
-    <div class="row">
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p01-large.jpg"><img src="assets/images/portfolio/p01-small.jpg" width="150px" style="display:none" alt=""></a></div>
-      <!-- <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p02-large.jpg"><img class="thumb" src="assets/images/portfolio/p02-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p09-large.jpg"><img class="thumb" src="assets/images/portfolio/p09-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p010-large.jpg"><img class="thumb" src="assets/images/portfolio/p10-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p05-large.jpg"><img class="thumb" src="assets/images/portfolio/p05-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p06-large.jpg"><img class="thumb" src="assets/images/portfolio/p06-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p07-large.jpg"><img class="thumb" src="assets/images/portfolio/p07-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p08-large.jpg"><img class="thumb" src="assets/images/portfolio/p08-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p03-large.jpg"><img class="thumb" src="assets/images/portfolio/p03-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p04-large.jpg"><img class="thumb" src="assets/images/portfolio/p04-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p11-large.jpg"><img class="thumb" src="assets/images/portfolio/p11-small.jpg" alt=""></a></div>
-      <div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p12-large.jpg"><img class="thumb" src="assets/images/portfolio/p12-small.jpg" alt=""></a></div> -->
+  <div class="slide story" id="slide-3" data-slide="3" style="height:800px;">
+    <div class="container">
+      
+      <div style="padding-top:120px;font-size:45px" align="center"><b>START INVESTING!</b></div>
+      <!-- <div class="row title-row">
+        <div class="col-12 font-thin"><span class="font-semibold">START INVESTING!</span> </div>
+      </div> --><!-- /row -->
+      <!-- <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+      </div> --><!-- /row -->
+      <div>
+        <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
+        <br><br><div align="center" style="font-family:Titillium Web, sans-serif; font-size:30px;">Our vision is to empower every Indian to plan and execute simple investment decisions for themselves.   Now sit and the comfort of your homes, plan for you life's financial goals, save and invest for them online @RupeeVest and track your investments on the fly. Stop; Think; Start RupeeVesting! <br><br></div>
+<div align="center"> <a href="/investment/products" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>START INVESTING</b></a>
+</div><br>
+
+        <div class="col-sm-1 hidden-sm">&nbsp;</div>
+      </div>
     
-<div class="col-12 col-sm-10 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/></div>
-<div> <a href="/investment/products" role="button" class="btn btn-primary btn-large active">Show more</a></div>
+
+
+
+    <div class="row">
+      <div><a data-fancybox-group="portfolio" class="fancybox" href="assets/images/portfolio/p01-large.jpg"><img src="assets/images/portfolio/p01-small.jpg" width="10px" style="display:none" alt=""></a></div>
+    
+
+<!-- <div class="col-12 col-sm-12 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/></div> -->
+<!-- <div> <a href="/investment/products" role="button" class="btn btn-primary btn-large active">Show more</a></div> -->
     </div><!-- /row -->
+    </div>
   </div><!-- /slide3 -->
+
+
+
   
   <!-- === Slide 4 - Process === -->
   <div class="slide story" id="slide-4" data-slide="4">
     <div class="container">
       <div class="row title-row">
-        <div class="col-12 font-thin">This is <span class="font-semibold">Academy</span></div>
+        <div class="col-12 font-thin"><span class="font-semibold">ACADEMY</span></div>
       </div><!-- /row -->
       <div class="row line-row">
         <div class="hr">&nbsp;</div>
       </div><!-- /row -->
       <div class="row subtitle-row">
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
-        <div class="col-12 col-sm-10 font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br><br></div>
+        <div class="col-12 col-sm-10 font-light">RupeeVest Academy: a knowledge centre for financial education. We will showcase a series of videos, pictures, blog posts and news articles from around the web to promote financial literacy among Indian investors. It's time to invest in your future. <br><br></div>
+        <div> <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Visit Our Academy</b></a></div>
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
       </div><!-- /row -->
       <div class="row content-row">
@@ -264,7 +281,7 @@
              <a target="_blank" href = "http://dhanhitmejari.in//"><%= image_tag("blog2.png", alt: "fb", :size => "30x30") %></a> 
              </p>
             <br>
-      </div> <br>   
+      </div> <br> <br>  
       <div>
         <div class="col-sm-10 col-lg-10">              
         <p align="justify">If you want to befriend Varun, talk about poker ( strictly Texas holdem ). A true believer in high risk, high return strategies but cautions you to always maintain a stop loss.Varun has done his bachelors in computer science from IIT Kharagpur. He has worked with Oracle financial services and his home grown stock broking business. He has cleared CFA level 1, FRM (financial risk management) level 1 and 2 examinations. It took one call from Raghav to convince Varun that retail investments is an important problem in India and they can solve it together. “Invest regularly with discipline” – he says. 
@@ -278,7 +295,7 @@
         <%= image_tag("varun.jpg", alt: "varun", :size => "115x105") %>
         <h5 align="right"><b>Varun Mundra</b><br><span class="muted">Co-founder and CTO</span></h5></p>
       </div>  
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
   
     </div><!-- /container -->
 
@@ -303,6 +320,7 @@
         <div class="col-12 col-sm-10 font-light">You can find us literally anywhere, just push a button and we’re there</div>
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
       </div><!-- /row -->
+      
       <div id="contact-row-4" class="row">
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
         <div class="col-12 col-sm-2 with-hover-text">
@@ -325,8 +343,10 @@
           <p><a target="_blank" href="https://twitter.com/RupeeVest"><i class="icon icon-twitter"></i></a></p>
           <span class="hover-text font-light ">twitter.com/RupeeVest</span></a>
         </div><!-- /col12 -->
-        <div class="col-sm-1 hidden-sm">&nbsp;</div>
+        <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
       </div><!-- /row -->
+       <div class="row">   <h4 align="center">&copy; Rupeevest<h4></div>
+
     </div><!-- /container -->
   </div><!-- /Slide 6 -->
   
