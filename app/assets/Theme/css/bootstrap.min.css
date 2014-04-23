@@ -4336,7 +4336,7 @@ a.list-group-item.active > .badge,
 
 .carousel-control {
   position: absolute;
-  top: 25px;
+  top: 50px;
   bottom: 80px;
   left: 0;
   width: 10%;
