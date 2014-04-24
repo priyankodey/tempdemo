@@ -36,7 +36,7 @@
         <ul class="nav row">
           <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
           <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">VISION</span></a></li>
-          <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-gears"></span> <span class="text">START INVESTING</span></a></li>
+          <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-gears"></span> <span class="text">INVEST</span></a></li>
           <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-heart"></span> <span class="text">ACADEMY</span></a></li>
           <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
           <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
@@ -100,6 +100,8 @@
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
   </div>
    <a href="#" role="button" class="btn btn-primary btn-large active" style="background:#E46C0A;border-color:#A55F26; width:400px;font-size:24px;margin-top:-1cm;"><b>Sign Up Now</b></a><br>
+
+   <!-- <a href="#" class="btn btn-primary active">Register</a> -->
       
                   <!-- <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" id="trybutton">
                   Rupee Vest Teaser</a>
@@ -161,7 +163,7 @@
       <div class="row subtitle-row">
         <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
         <div class="col-12 col-sm-12 font-light">Our vision is to empower every Indian to plan and execute simple investment decisions for themselves.   Now sit and the comfort of your homes, plan for you life's financial goals, save and invest for them online @RupeeVest and track your investments on the fly. Stop; Think; Start RupeeVesting! <br><br></div>
-<div> <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Watch teaser on RupeeVest!</b></a>
+<div> <a target="_blank" href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Watch teaser on RupeeVest!</b></a>
 </div>
 
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
@@ -183,7 +185,7 @@
   <div class="slide story" id="slide-3" data-slide="3" style="height:800px;">
     <div class="container">
       
-      <div style="padding-top:120px;font-size:45px" align="center"><b>START INVESTING!</b></div><br>
+      <div style="padding-top:90px;font-size:45px" align="center"><b>START INVESTING!</b></div>
       <!-- <div class="row title-row">
         <div class="col-12 font-thin"><span class="font-semibold">START INVESTING!</span> </div>
       </div> --><!-- /row -->
@@ -193,8 +195,56 @@
       <div id="hr_slide3" align="center"><hr></div>
       <div>
         <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
-        <br><br><div align="center" style="font-family:Titillium Web, sans-serif; font-size:30px;">Our vision is to empower every Indian to plan and execute simple investment decisions for themselves.   Now sit and the comfort of your homes, plan for you life's financial goals, save and invest for them online @RupeeVest and track your investments on the fly. Stop; Think; Start RupeeVesting!</div><br><br><br>
-<div align="center"> <a href="/investment/products" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>START INVESTING</b></a>
+        <br><br><br>
+
+
+  <div class="allthumb" align="center">
+
+    <div class="col-md-3" style="padding-right:1cm">
+    <div class="thumbnail" style="background:none;border:none;box-shadow:none;">
+      <%= image_tag("invest_build.ico",size:"150x150", alt: "Build Wealth") %>
+      <div class="caption">
+        <h4>Build Wealth</h4>
+        <p>Invest in an optimal portfolio to build wealth for the long run.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3" style="padding-right:1cm">
+     <div class="thumbnail" style="background:none;border:none;box-shadow:none;">
+      <%= image_tag("invest_time.ico",size:"150x150", alt: "Save Time") %>
+      <div class="caption">
+        <h4>Save Time</h4>
+        <p>Stop signing cheques. Stop trusting agents. Invest Online!</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3" style="padding-right:1cm">
+     <div class="thumbnail" style="background:none;border:none;box-shadow:none;">
+     <%= image_tag("invest_tax.ico",size:"150x150", alt: "Save Tax") %>
+      <div class="caption">
+        <h4>Save Tax</h4>
+        <p>RupeeVest will help you tax efficient investments. Tax Saving was never easier.</p>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-3" style="padding-right:1cm">
+     <div class="thumbnail" style="background:none;border:none;box-shadow:none;">
+     <%= image_tag("invest_better.ico",size:"150x150", alt: "Invest Better") %> 
+      <div class="caption">
+        <h4>Invest Better</h4>
+        <p>Financial and Math Experts have designed this super efficient way to invest.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div style="font-family:Titillium Web, sans-serif; font-size:24px;padding-left:2cm;"></div> -->
+
+<div align="center" style="padding-top:9.5cm"> <a href="/investment/products" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>CLICK HERE FOR DEMO</b></a>
 </div><br>
 
         <!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
@@ -227,8 +277,8 @@
       </div><!-- /row -->
       <div class="row subtitle-row">
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
-        <div class="col-12 col-sm-10 font-light">RupeeVest Academy: a knowledge centre for financial education. We will showcase a series of videos, pictures, blog posts and news articles from around the web to promote financial literacy among Indian investors. It's time to invest in your future. <br><br></div>
-        <div> <a href="/academics/videoteaser" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Visit Our Academy</b></a></div>
+        <div class="col-12 col-sm-10 font-light">RupeeVest Academy is a knowledge centre for financial education. We will showcase a series of videos, pictures, blog posts and news articles from around the web to promote financial literacy among Indian investors. It's time to invest in your future. <br><br></div>
+        <div> <a href="academics/videos" role="button" class="btn btn-primary btn-large active" style="font-size:22px;width:400px;"><b>Visit Our Academy</b></a></div>
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
       </div><!-- /row -->
       <div class="row content-row">
@@ -301,7 +351,7 @@
         <%= image_tag("varun.jpg", alt: "varun", :size => "115x105") %>
         <h5 align="right"><b>Varun Mundra</b><br><span class="muted">Co-founder and CTO</span></h5></p>
       </div>  
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
   
     </div><!-- /container -->
 

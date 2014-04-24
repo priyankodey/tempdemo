@@ -4,4 +4,10 @@ class AcademicsController < ApplicationController
 
   def videoteaser  	
   end
+
+  def images  	
+  end
+
+  def videos  	
+  end
 end

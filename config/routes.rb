@@ -3,6 +3,8 @@ Temp::Application.routes.draw do
   get "investment/products"
   get "investing/startinvesting"
   get "academics/video"
+  get "academics/videos"
+  get "academics/images"
   get "academics/videoteaser"
   match '/contacts',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
