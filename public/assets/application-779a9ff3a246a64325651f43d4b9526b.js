@@ -10387,7 +10387,7 @@ return jQuery;
     fileInputSelector: 'input[type=file]',
 
     // Link onClick disable selector with possible reenable after remote submission
-    //linkDisableSelector: 'a[data-disable-with]',
+    linkDisableSelector: 'a[data-disable-with]',
 
     // Make sure that every Ajax request sends the CSRF token
     CSRFProtection: function(xhr) {
