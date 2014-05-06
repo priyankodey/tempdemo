@@ -30,6 +30,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'mail_form'
 gem 'simple_form'
+#gem 'font-awesome-rails'
 
 group :assets do
   gem 'less-rails-bootstrap'
