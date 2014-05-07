@@ -1,21 +1,43 @@
 
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>HTML5 and JavaScript Contact Form | Onextrapixel</title>
-  
-  <link href="assets/css/investment.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Basic Tablesorter Demo</title>
+
+
+    <!-- jQuery: required (tablesorter works with jQuery 1.2.3+) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Pick a theme, load the plugin & initialize plugin -->
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/assets/bootstrap.min.css">
+    <link href="assets/css/investment.css" rel="stylesheet">
+    <link href="/assets/theme.default.css" rel="stylesheet">
+    <script src="/assets/jquery.tablesorter.min.js"></script>
+    <script src="/assets/jquery.tablesorter.widgets.min.js"></script>
+    <script>
+    $(function(){
+        $('table').tablesorter({
+            widgets        : ['zebra', 'columns'],
+            usNumberFormat : false,
+            sortReset      : true,
+            sortRestart    : true
+        });
+    });
+    </script>
+
 </head>
 
-<body id="bd_product">
-	
-	<div class="container">
+<body>
+
+<div class="container">
   <div class="row-fluid">
     <div class="span12">
       <div class="tabbable" id="tabs-890699">
   
 
-<div id="topframe"  style="background-color:#EEEEEE; width:964; margin:0cm 0cm 0cm .5cm">
+<div id="topframe"  style="background-color:#EEEEEE; width:1130px; margin:0cm 0cm 0cm .5cm">
         <ul class="nav nav-tabs offset4" style="border:none; font-size:11pt"> 
           <li>
             <a href="#bonds" data-toggle="tab">Bonds</a>
@@ -23,8 +45,7 @@
           <li>
             <a href="#fixeddeposit" data-toggle="tab">Fixed Deposit</a>
           </li>
-          <li><a href="#nutualfunds" data-toggle="tab">Mutual Funds</a>
-           </li>
+          <li>Mutual Fund</li>
         </ul>
 </div>   
 
@@ -67,7 +88,6 @@
                         <td>9.01%</td>
                         <td>0.25%</td>
                         <td>
-                        	
                             <a href= "/static_pages/download_pdf1" class="btn btn-primary active">
                             Download Details</a>
                             
@@ -155,7 +175,7 @@
                              <td>
                             <a href= "/static_pages/download_pdf4" class="btn btn-primary active">
                             Download Details</a>
-                           
+                            
                             <a href="/users/sign_up" class="btn btn-primary active">Sign up to Download</a>
                              
                           </td>
@@ -171,7 +191,7 @@
             <h3 class="text-left text-info">
                    Corporate Fixed Deposits
                   </h3>
-                  <table class="table table-bordered table-hover">
+                  <table class="table table-bordered table-hover tablesorter">
                     <thead>
                       <tr >
                         
@@ -239,7 +259,18 @@
       </div>
     </div>
   </div>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>  
+
 </div>
 
+<script type="text/javascript" src="/assets/bootstrap.js"></script>
+
 </body>
+
 </html>
