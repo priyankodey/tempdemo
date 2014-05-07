@@ -14,6 +14,8 @@
   <link rel="stylesheet" type="text/css" href="/assets/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/style.css">  
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
   <!-- <link rel="prefetch" href="assets/images/zoom.png"> -->
     
 </head>
@@ -44,9 +46,110 @@
         <div class="row">
           <div class="col-sm-2 active-menu"></div>
         </div>
-        <div style="margin-left: 855px; margin-top:-30px; width:140px;">
-                  <a href="#" class="btn btn-primary active">Register</a>
-                  <a href="/academics/videos" class="btn btn-primary active">Log In</a></div>
+        
+         <div style="margin-left: 855px; margin-top:-30px; width:140px;">
+                  <a href="/users/sign_up" class="btn btn-primary active">Register</a>
+                  <a class="btn btn-primary" data-toggle="modal" href="#myModal">Login</a></div>
+
+
+ <div class="row">
+        
+<div>
+        <div class="modal" id="myModal" >
+
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">x</button>
+            <h3 class="omb_authTitle" align="center">Login or <a href="#">Sign up</a></h3>
+          </div>
+
+          <div class="modal-body" id="id_modal_body">
+            <form method="post" action="" name="login_form">
+
+ <div class="omb_login">
+        <!-- <h3 class="omb_authTitle">Login or <a href="#">Sign up</a></h3> -->
+        <div class="row omb_row-sm-offset-3 omb_socialButtons">
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+                    <i class="fa fa-facebook visible-xs" id="fa_facebook"></i>
+                    <span class="hidden-xs">Facebook</span>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="btn btn-lg btn-block omb_btn-twitter">
+                    <i class="fa fa-twitter visible-xs" id="fa_twitter"></i>
+                    <span class="hidden-xs">Twitter</span>
+                </a>
+            </div>  
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="btn btn-lg btn-block omb_btn-google">
+                    <i class="fa fa-google-plus visible-xs" id="fa_googleplus"></i>
+                    <span class="hidden-xs">Google+</span>
+                </a>
+            </div>  
+        </div>
+
+        <div class="row omb_row-sm-offset-3 omb_loginOr">
+            <div class="col-xs-12 col-sm-6">
+                <hr class="omb_hrOr">
+                <span class="omb_spanOr">or</span>
+            </div>
+        </div>
+
+        <div class="row omb_row-sm-offset-3">
+            <div class="col-xs-12 col-sm-6">    
+                <form class="omb_loginForm" action="" autocomplete="off" method="POST">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user" id="fa_user"></i></span>
+                        <input type="text" class="form-control" name="username" placeholder="email address">
+                    </div>
+                    <span class="help-block"></span>
+                                        
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock" id="fa_lock"></i></span>
+                        <input  type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <span class="help-block">Password error</span>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div class="row omb_row-sm-offset-3">
+            <div class="col-xs-12 col-sm-3">
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me">Remember Me
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <p class="omb_forgotPwd">
+                    <a href="#">Forgot password?</a>
+                </p>
+            </div>
+        </div>          
+    </div>
+
+
+            </form>
+          </div>
+          
+        </div>
+    </div>
+    
+</div>        
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#myModal').tab();
+    });
+</script>  
+
+<script type="text/javascript" src="/assets/bootstrap.js"></script>
+
+
+
+
+
       </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
   </div><!-- /.navbar -->
