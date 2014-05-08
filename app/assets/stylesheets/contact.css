@@ -24,6 +24,12 @@ Author: http://www.toddmotto.com
 	background-image:-moz-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
 	background-image:-webkit-linear-gradient(left , #156A76 0%, #156A76 52%, #156A76 100%);
 }*/
+
+#message_body {
+	
+	background-color: #2f2f2f;
+}
+
 .wrapper {
 	max-width:500px;
 	width:95%;
